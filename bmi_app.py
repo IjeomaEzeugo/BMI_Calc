@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-img = Image.open("bmi image.JPG")
+img = Image.open("bmi image.jpg")
 st.image(img.resize((300,300)))
 
 st.header("BMI CHECKER")
